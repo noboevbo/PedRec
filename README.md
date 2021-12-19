@@ -12,7 +12,10 @@ This repository contains the code for the PedRecNet as well as EHPI3D. It is the
 
 Note: This work is currently unpublished. It is part of my PhD dissertation and we are currently in the process to prepare (a? maybe more) paper. Note also, that, for now, I am no longer active in research, thus this code is provided as is.
 
-[![PedRecNet: Demo01 - Pedestrian crossing the street + Hitchhike](https://www.youtube.com/watch?v=IPeJK1Bk5qY/default.jpg)](https://www.youtube.com/watch?v=IPeJK1Bk5qY)
+[![PedRecNet: Demo01 - Pedestrian crossing the street + Hitchhike](https://img.youtube.com/vi/IPeJK1Bk5qY/0.jpg)](https://www.youtube.com/watch?v=IPeJK1Bk5qY)
+
+[![PedRecNet Demo 02: Multiple Pedestrians](https://img.youtube.com/vi/xUcTKKGHfEs/0.jpg)](https://www.youtube.com/watch?v=xUcTKKGHfEs)
+
 
 #Installation
 ## Requirements
