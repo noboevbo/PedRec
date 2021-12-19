@@ -12,6 +12,8 @@ This repository contains the code for the PedRecNet as well as EHPI3D. It is the
 
 Note: This work is currently unpublished. It is part of my PhD dissertation and we are currently in the process to prepare (a? maybe more) paper. Note also, that, for now, I am no longer active in research, thus this code is provided as is.
 
+[![PedRecNet: Demo01 - Pedestrian crossing the street + Hitchhike](https://www.youtube.com/watch?v=IPeJK1Bk5qY/default.jpg)](https://www.youtube.com/watch?v=IPeJK1Bk5qY)
+
 #Installation
 ## Requirements
 - Python 3.9 (venv suggested)
@@ -62,6 +64,9 @@ Currently I would recommend to use a PIP environment instead of Anaconda. I trie
 
 # Demo / Run
 Check out the *demo_actionrec_dev.py* file. It contains examples on how to run the application on videos, image dirs, images and a webcam via the "input providers".
+Example (if you've downloaded the demo videos!):
+
+python pedrec/demo_actionrec_dev.py
 
 # Generate own training data
 Check out the panda dataframes (e.g. the rt_conti_01_train_FIN.pkl from SIM-C01 dataset, or the pkls from the H36M dataset). If you provide a dataset of the same structure you can just use the pedrec dataset class.
