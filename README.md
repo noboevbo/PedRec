@@ -17,7 +17,7 @@ Note: This work is currently unpublished. It is part of my PhD dissertation and 
 [![PedRecNet Demo 02: Multiple Pedestrians](https://img.youtube.com/vi/xUcTKKGHfEs/0.jpg)](https://www.youtube.com/watch?v=xUcTKKGHfEs)
 
 
-#Installation
+# Installation
 ## Requirements
 - Python 3.9 (venv suggested)
 - working CUDA / CUDNN
