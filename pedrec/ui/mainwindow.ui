@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1292</width>
+    <height>793</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pedestrian Recognition Network - dennisburgermeister.de</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QGridLayout" name="grid">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="3" column="1">
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>Action Probabilities</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="ActionsBarChartView" name="actions_bar_chart_view">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QGroupBox" name="groupBox">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="title">
+         <string>Skeleton 3D</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="SkeletonView2p5D" name="skeleton_view"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="title">
+         <string>Orientations</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="OrientationView" name="body_orientation_view"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QGroupBox" name="ehpi_groupbox">
+        <property name="title">
+         <string>Encoded Human Pose Image (EHPI)</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="img_ehpi">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+           <property name="scaledContents">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>Image</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="ImageWidget" name="img_view">
+           <property name="text">
+            <string>No image received.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1292</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>51</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_toggle_pose_2d"/>
+   <addaction name="action_toggle_object_bb"/>
+   <addaction name="action_toggle_human_bb"/>
+   <addaction name="action_toggle_head_orientation_2d"/>
+   <addaction name="action_toggle_body_orientation_2d"/>
+   <addaction name="action_toggle_actions"/>
+   <addaction name="action_toggle_sees_car"/>
+  </widget>
+  <action name="action_toggle_pose_2d">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_skeleton_2d.svg</normaloff>:/buttons/button_skeleton_2d.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Pose2D</string>
+   </property>
+  </action>
+  <action name="action_toggle_object_bb">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_bb.svg</normaloff>:/buttons/button_bb.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Object BB</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle bounding boxes</string>
+   </property>
+  </action>
+  <action name="action_toggle_pose_3d">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_skeleton_3d.svg</normaloff>:/buttons/button_skeleton_3d.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Pose3D</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle Pose3D view</string>
+   </property>
+  </action>
+  <action name="action_toggle_human_bb">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_bb_human.svg</normaloff>:/buttons/button_bb_human.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Human BB</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle Human BB</string>
+   </property>
+  </action>
+  <action name="action_toggle_head_orientation_2d">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_head_orientation_2d.svg</normaloff>:/buttons/button_head_orientation_2d.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Head Ori.</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle Head Orientation 2D</string>
+   </property>
+  </action>
+  <action name="action_toggle_head_orientation_3d">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_head_orientation_3d.svg</normaloff>:/buttons/button_head_orientation_3d.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Head Ori.</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle Head Orientation 3D</string>
+   </property>
+  </action>
+  <action name="action_toggle_body_orientation_2d">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_body_orientation_2d.svg</normaloff>:/buttons/button_body_orientation_2d.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Body Ori.</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle Body Orientation 2D</string>
+   </property>
+  </action>
+  <action name="action_toggle_actions">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_skeleton_2d.svg</normaloff>:/buttons/button_skeleton_2d.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Actions</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle Actions</string>
+   </property>
+  </action>
+  <action name="action_toggle_sees_car">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="qt_icon_resources.qrc">
+     <normaloff>:/buttons/button_sees_car.svg</normaloff>:/buttons/button_sees_car.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Sees car</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle sees car visualization</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SkeletonView2p5D</class>
+   <extends>QOpenGLWidget</extends>
+   <header>pedrec.ui.models.skeleton_view_2p5d</header>
+  </customwidget>
+  <customwidget>
+   <class>ImageWidget</class>
+   <extends>QLabel</extends>
+   <header>pedrec.ui.models.image_widget</header>
+  </customwidget>
+  <customwidget>
+   <class>OrientationView</class>
+   <extends>QOpenGLWidget</extends>
+   <header>pedrec.ui.models.orientation_view</header>
+  </customwidget>
+  <customwidget>
+   <class>ActionsBarChartView</class>
+   <extends>QGraphicsView</extends>
+   <header>pedrec.ui.models.actions_bar_chart_view</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="qt_icon_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

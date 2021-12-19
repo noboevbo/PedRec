@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20.494738mm"
+   height="30mm"
+   viewBox="0 0 20.494738 30"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="action_sit.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.7946873"
+     inkscape:cx="134.26666"
+     inkscape:cy="53.495843"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="1920"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g573"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.665792,-20.052122)">
+    <rect
+       style="fill:#f9f9f9;stroke:#232627;stroke-width:0.174801"
+       id="rect231"
+       width="20.319937"
+       height="29.825199"
+       x="17.753193"
+       y="20.139523" />
+    <g
+       id="g565"
+       transform="matrix(0.0217767,0,0,0.02578966,40.787159,46.92268)">
+      <path
+         d="m 5273.1,2400.1 v -2 c 0,-2.8 -5,-4 -9.7,-4 -4.7,0 -9.7,1.3 -9.7,4 v 2 c 0,1.8 0.7,3.6 2,4.9 l 5,4.9 c 0.3,0.3 0.4,0.6 0.4,1 v 6.4 c 0,0.4 0.2,0.7 0.6,0.8 l 2.9,0.9 c 0.5,0.1 1,-0.2 1,-0.8 v -7.2 c 0,-0.4 0.2,-0.7 0.4,-1 l 5.1,-5 c 1.3,-1.3 2,-3.1 2,-4.9 z m -9.7,-0.1 c -4.8,0 -7.4,-1.3 -7.5,-1.8 v 0 c 0.1,-0.5 2.7,-1.8 7.5,-1.8 4.8,0 7.3,1.3 7.5,1.8 -0.2,0.5 -2.7,1.8 -7.5,1.8 z"
+         id="path557" />
+      <path
+         d="m 5268.4,2410.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+         id="path559" />
+      <path
+         d="m 5272.7,2413.7 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+         id="path561" />
+      <path
+         d="m 5272.7,2417 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.5 -0.4,-1 -1,-1 z"
+         id="path563" />
+    </g>
+    <g
+       id="g573"
+       transform="matrix(0.0217767,0,0,0.02578966,35.078424,46.020676)">
+      <switch
+         id="switch1474"
+         transform="matrix(14.037127,0,0,11.852902,-1013.6945,-1015.0169)">
+        <foreignObject
+           requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+           x="0"
+           y="0"
+           width="1"
+           height="1" />
+        <g
+           i:extraneous="self"
+           id="g1472">
+          <g
+             id="g1470">
+            <path
+               d="m 63.4,54.5 h -9.7 l 3,-16.1 c 0.8,-4.6 -2,-8.9 -6.6,-9.9 l -4,-0.9 C 43.9,27.1 41.6,27.5 39.7,28.8 37.8,30 36.5,32 36,34.2 l -4.6,22.3 c -0.5,2.4 0.1,5 1.7,6.9 1.6,1.9 3.9,3.1 6.4,3.1 H 60 v 25.1 c 0,3.3 2.7,6 6,6 3.3,0 6,-2.7 6,-6 V 63.1 c -0.1,-4.7 -3.9,-8.6 -8.6,-8.6 z"
+               id="path1464" />
+            <circle
+               transform="matrix(0.1082,-0.9941,0.9941,0.1082,31.6588,63.2477)"
+               cx="51.099998"
+               cy="14"
+               id="ellipse1466"
+               r="11.5" />
+            <path
+               d="M 51.8,72.2 H 30.1 C 29,72.2 28,73.1 28,74.3 v 20.8 c 0,1.1 0.9,2.1 2.1,2.1 h 21.7 c 1.1,0 2.1,-0.9 2.1,-2.1 V 74.3 c 0,-1.1 -0.9,-2.1 -2.1,-2.1 z"
+               id="path1468" />
+          </g>
+        </g>
+      </switch>
+    </g>
+  </g>
+</svg>

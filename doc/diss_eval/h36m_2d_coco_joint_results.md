@@ -1,0 +1,15 @@
+| Experiment | PCK@0.05 | PCK@0.2 |
+| ---  | --- | --- |
+| experiment_pedrec_p2d_coco_only_0 | 31.25 | 88.46 |
+| experiment_pedrec_p2d_h36m_0 | 58.44 | 93.07 |
+| experiment_pedrec_p2d_sim_0 | 31.84 | 88.55 |
+| experiment_pedrec_p2d3d_h36m_0 | 60.12 | 93.26 |
+| experiment_pedrec_p2d3d_sim_0 | 31.85 | 88.26 |
+| experiment_pedrec_p2d3d_h36m_sim_0 | 60.23 | 93.24 |
+| experiment_pedrec_p2d3d_c_h36m_0 | 60.45 | 93.26 |
+| experiment_pedrec_p2d3d_c_sim_0 | 31.86 | 88.22 |
+| experiment_pedrec_p2d3d_c_h36m_sim_0 | 60.59 | 93.27 |
+| experiment_pedrec_p2d3d_c_o_h36m_mebow_0 | 60.74 | 93.24 |
+| experiment_pedrec_p2d3d_c_o_sim_0 | 31.71 | 88.23 |
+| experiment_pedrec_p2d3d_c_o_h36m_sim_0 | 61.18 | 93.29 |
+| experiment_pedrec_p2d3d_c_o_h36m_sim_mebow_0 | 61.66 | 93.34 |

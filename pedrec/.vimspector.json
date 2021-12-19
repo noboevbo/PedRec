@@ -1,0 +1,24 @@
+{
+  "configurations": {
+    "run": {
+      "adapter": "debugpy",
+      "default": true,
+      "configuration": {
+	"name": "Pedrec: Launch",
+	"type": "python",
+        "request": "launch",
+        "program": "${workspaceRoot}/demo.py",
+        "cwd": "${workspaceRoot}",
+        "stopOnEntry": false,
+	"python": "~/.virtualenvs/pedrec/bin/python"
+      },
+      "breakpoints": {
+        "exception": {
+          "raised": "N",
+          "uncaught": "",
+          "userUnhandled": ""
+        }
+      }
+    }
+  }
+}

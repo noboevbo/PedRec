@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="buttons">
+    <file>button_sees_car.svg</file>
+    <file>button_bb.svg</file>
+    <file>button_bb_human.svg</file>
+    <file>button_body_orientation_2d.svg</file>
+    <file>button_body_orientation_3d.svg</file>
+    <file>button_head_orientation_2d.svg</file>
+    <file>button_head_orientation_3d.svg</file>
+    <file>button_skeleton_2d.svg</file>
+    <file>button_skeleton_3d.svg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,41 @@
+# Pose Resnet (With NMS, like original MS simple baseline)
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.603
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.869
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.674
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.589
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.630
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.724
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.923
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.800
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.691
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.775
+
+Process finished with exit code 0
+
+# PedRec COCO only:
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.609
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.856
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.664
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.596
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.643
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.737
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.919
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.798
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.705
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.785
+
+Process finished with exit code 0
+
+# PedRec Direct 4:
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.576
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.840
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.630
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.561
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.616
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] = 0.710
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] = 0.909
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] = 0.777
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = 0.677
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] = 0.760
+
+Process finished with exit code 0
