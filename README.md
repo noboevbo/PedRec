@@ -7,7 +7,7 @@ This repository contains the code for the PedRecNet as well as EHPI3D. It is the
 - 3D Human Pose Estimation
 - Human Body Orientation (currently only Phi) Estimation
 - Human Head Orientation (currently only Phi) Estimation
-- Recognizes the camera" estimation
+- "Pedestrian recognizes the camera" estimation
 - Human Action Recognition (via EHPI3D)
 
 Note: This work is currently unpublished. It is part of my PhD dissertation and we are currently in the process to prepare (a? maybe more) paper. Note also, that, for now, I am no longer active in research, thus this code is provided as is.
@@ -176,6 +176,7 @@ They use a binary mask containing 1s in the bounding box area.
 
 # Contact
 Dennis Burgermeister, Cognitive Systems Research Group, Reutlingen University (no longer active)
+Cristóbal Curio, Cognitive Systems Research Group, Reutlingen University
 
 # Acknowledgment
 This project was funded by the Continental AG.
