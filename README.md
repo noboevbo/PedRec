@@ -175,8 +175,8 @@ They use a binary mask containing 1s in the bounding box area.
 - sit by Adrien Coquet from the Noun Project
 
 # Contact
-Dennis Burgermeister, Cognitive Systems Research Group, Reutlingen University (no longer active)
-Cristóbal Curio, Cognitive Systems Research Group, Reutlingen University
+- Dennis Burgermeister, Cognitive Systems Research Group, Reutlingen University (no longer active)
+- Cristóbal Curio, Cognitive Systems Research Group, Reutlingen University
 
 # Acknowledgment
 This project was funded by the Continental AG.
