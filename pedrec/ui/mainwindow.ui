@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Pedestrian Recognition Network - dennisburgermeister.de</string>
+   <string>Pedestrian Recognition Network - Cognitive Systems - Reutlingen University</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
