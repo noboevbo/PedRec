@@ -1,5 +1,5 @@
 # PedRecNet
-This repository contains the code for the PedRecNet as well as EHPI3D. It is the successor of our EHPI2D work (https://github.com/noboevbo/ehpi_action_recognition). The PedRecNet is a multi-purpose network that provides the following functions:
+This repository contains the code for the PedRecNet (Paper: https://arxiv.org/pdf/2204.11548.pdf) as well as EHPI3D. It is the successor of our EHPI2D work (https://github.com/noboevbo/ehpi_action_recognition). The PedRecNet is a multi-purpose network that provides the following functions:
 
 - Human BB Detection (via YoloV4).
 - Human Tracking
