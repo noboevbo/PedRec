@@ -16,6 +16,13 @@ Note: This work is currently unpublished. It is part of my PhD dissertation and 
 
 [![PedRecNet Demo 02: Multiple Pedestrians](https://img.youtube.com/vi/xUcTKKGHfEs/0.jpg)](https://www.youtube.com/watch?v=xUcTKKGHfEs)
 
+# Citation
+Please cite the following paper if this code is helpful in your research.
+
+```bash
+D. Burgermeister and C. Curio, “PedRecNet: Multi-task deep neural network for full 3D human pose and orientation estimation,” in 2022 IEEE Intelligent 
+Vehicles Symposium (IV), 2022.
+```
 
 # Installation
 ## Requirements
